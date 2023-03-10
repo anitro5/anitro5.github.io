@@ -1,1 +1,1 @@
-https://anitro5.github.io/
+# written from scrach :)
