@@ -1,0 +1,27 @@
+<html  style="margin:30px">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background-color:#012a36;">
+   <h3><p align = "center" style="color:powderblue;">Windows Troubleshoot : Internet stopped working suddenly!</p></h3>
+
+
+<p style="color:white;"><u><b>Try the following commands in window cmd/powershell</b></u> :
+
+   <br><br>Type <code style="background-color:brown;">ipconfig /release</code> and press Enter.
+
+
+   <br><br>Type <code style="background-color:brown;">ipconfig /flushdns</code> and press Enter.
+   
+   
+   <br><br>Type <code style="background-color:brown;">ipconfig /renew</code> and press Enter. (This will stall for a moment.)
+   
+   
+   <br><br>Type <code style="background-color:brown;">netsh int ip reset</code> and press Enter. <b>(Don't restart yet.)</b>
+   
+   
+   <br><br>Type <code style="background-color:brown;">netsh winsock reset</code> and press Enter.
+
+</p>
+</body>
+</html>
